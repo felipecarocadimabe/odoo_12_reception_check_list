@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_reception_check_reception_check,reception_check.reception_check,model_reception_check_reception_check,,1,0,0,0
