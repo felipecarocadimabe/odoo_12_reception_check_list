@@ -8,29 +8,7 @@
                 <xpath expr="//page[@name='extra']" position="before">
                     <page string="Check list" id="check_list">
                         <group name="check_list" position="inside">
-                            <group>
-                                <field name="is_provider_correct"/>
-                                <field name="delivery_at_time"/>
-                                <field name="is_correct_quantity"/>
-                                <field name="has_quality_cert"/>
-                                <field name="corresponds_requested"/>
-                                <field name="in_good_condition"/>
-                                <field name="expiration_date_adequate"/>
-                                <field name="others"/>
-                            </group>
-                            <group>
-                                <field name="obs_is_provider_correct"/>
-                                <field name="obs_delivery_at_time"/>
-                                <field name="obs_is_correct_quantity"/>
-                                <field name="obs_has_quality_cert"/>
-                                <field name="obs_corresponds_requested"/>
-                                <field name="obs_in_good_condition"/>
-                                <field name="obs_expiration_date_adequate"/>
-                                <field name="obs_others"/>
-                            </group>
-                            <group>
-                                <field name="observation"/>
-                            </group>
+                            <field name="check_list_responses"/>
                         </group>
                     </page>
                 </xpath>
