@@ -8,9 +8,9 @@
         <field name="view_mode">tree,form</field>
     </record>
 
-    <menuitem name="Lista Revisión Recepción" id="check_list_base_menu"/>
+    <menuitem name="Check List Recepción" id="check_list_base_menu"/>
 
-    <menuitem name="check list"
+    <menuitem name="Check List"
               id="check_list_menu"
               parent="check_list_base_menu"
               action="check_list_action"
